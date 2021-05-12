@@ -224,7 +224,7 @@ body {
 
 .timeshow,
 .List_Cinemas,
-.city {
+.Time {
     padding-bottom: 20px;
     display: flex;
     padding-left: 220px;
@@ -238,7 +238,7 @@ body {
     padding-right: 15px;
 }
 
-.city h3 {
+.Time h3 {
     padding-right: 50px;
 }
 

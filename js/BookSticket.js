@@ -1,14 +1,19 @@
 $(document).ready(function() {
     $(".outer-seat").on("click", function() {
         $(this).toggleClass('selected-outerColor');
+
         var qty = $('.selected-outerColor').length;
         $(".count-selected span").text(qty);
+
+        var tx = $('.selected-outerColor').text();
+        $(".text-selected span").text(tx);
 
     });
 
     $(".inner-seat").on("click", function() {
         $(this).toggleClass('selected-innerColor');
     });
+
 
 });
 

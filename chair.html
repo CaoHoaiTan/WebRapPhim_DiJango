@@ -26,16 +26,16 @@
     <div class="nav-wrapper">
         <div class="container">
             <div class="nav">
-                <a href="Home.html" class="logo">
+                <a href="#" class="logo">
                     <i class='bx bx-movie-play bx-tada'></i>Ci<span class="main-color">ne</span>ma
                 </a>
                 <ul class="nav-menu" id="nav-menu">
-                    <li><a href="Home.html">Trang Chủ</a></li>
-                    <li><a href="#">Đặt Vé</a></li>
+                    <li><a href="home.html">Trang Chủ</a></li>
+                    <li><a href="chair.html">Đặt Vé</a></li>
                     <li><a href="#">Khuyến Mãi</a></li>
                     <li><a href="#">Liên Hệ</a></li>
                     <li>
-                        <a href="sign_in.html" class="bth bth-hover">
+                        <a href="#" class="bth bth-hover">
                             <span>Đăng Nhập</span>
                         </a>
                     </li>
@@ -54,15 +54,21 @@
         <!--CREATE INFO-->
         <div class="info">
             <h1>CHỌN SUẤT CHIẾU</h1>
-            <div class="Time">
-                <h3>Chọn ngày:</h3>
-                <input type="date" id="dateshow" onchange="validateSelectBox0(this)">
+            <div class="city">
+                <h3>Thành phố:</h3>
+                <select>
+                    <option value="0">TP Hồ Chí Minh</option>
+                    <option value="34">TP Đà Nẵng</option>
+                    <option value="46">TP Hà Nội</option>
+                    <option value="68">TP Qui Nhơn</option>
+                    <option value="812">TP Thủ Đức</option>
+                </select>
 
             </div>
 
             <div class="List_Cinemas">
                 <h3>Danh sách rạp:</h3>
-                <select id="Cinema" onchange="validateSelectBox1(this)">
+                <select>
                     <option value="0">BHD Star Cineplex</option>
                     <option value="34">CGV Cinemas</option>
                     <option value="46">CineStar</option>
@@ -74,7 +80,7 @@
 
             <div class="timeshow">
                 <h3>Xuất chiếu:</h3>
-                <select id="timeshow" onchange="validateSelectBox2(this)">
+                <select>
                     <option value="0">2021-05-05 19:30:00</option>
                     <option value="34">2021-05-07 10:30:00</option>
                     <option value="46">2021-05-08 9:30:00</option>
@@ -82,13 +88,6 @@
                     <option value="812">2021-05-10 16:30:00</option>
                 </select>
 
-            </div>
-            <hr>
-            <div id="result0" name="Ngày xem được chọn">
-            </div>
-            <div id="result1" name="Rạp phim được chọn">
-            </div>
-            <div id="result2" name="Xuất phim được chọn">
             </div>
             <hr class="line">
             <h1 class="screen">SCREEN
@@ -363,10 +362,24 @@
         </div>
         <br class="clearBoth" />
 
-        <div class="count-selected">Số Lượng Ghế: <span class="num-chair">0</span></div>
+        <div class="note">
+            <div class="square-none"></div>
+            <div class="inf-chair">Ghế còn trống</div>
+
+            <div class="square-full"></div>
+            <div class="inf-chair">Ghế đã đặt</div>
+        </div>
+
+        <div class="count-selected">Số Lượng Ghế:
+            <span class="num-chair">0</span>
+        </div>
+
+        <div class="text-selected">Vị Trí Ghế:
+            <span class="num-chair"></span>
+        </div>
 
         <div class="buttom">
-            <a href="Drink.html" class="bth bth-hover">
+            <a href="#" class="bth bth-hover">
                 <span>Tiếp Theo</span>
             </a>
         </div>
@@ -381,7 +394,7 @@
     <!--JQUERY-->
     <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
     <!--APP SCRIPT-->
-    <script src="js/BookSticket.js"></script>
+    <script src="/js/BookSticket.js"></script>
 
 
 </body>

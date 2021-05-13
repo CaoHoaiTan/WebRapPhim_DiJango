@@ -84,18 +84,19 @@
             <input onclick="checkPassword()" id="submit" type="submit" name="submit" value="Đăng ký">
         </form>
     </section>
-    <!--Funtion-->
-    <script type="text/javascript">
-        function checkPassword() {
-            var fpw = document.getElementById("password").value;
-            var spw = document.getElementById("cpassword").value;
-            if (fpw == spw) {
-                document.getElementById('cpassword').innerHTML = "Mật khẩu đã khớp";
-            } else {
-                document.getElementById('cpassword').innerHTML = "<span color=’red’>Mật khẩu chưa khớp</span>";
-            }
-        }
-    </script>
+
 </body>
+<!--Funtion-->
+<script type="text/javascript">
+    function checkPassword() {
+        var fpw = document.getElementById("password").value;
+        var spw = document.getElementById("cpassword").value;
+        if (fpw == spw) {
+            document.getElementById('cpassword').innerHTML = "Mật khẩu đã khớp";
+        } else {
+            document.getElementById('cpassword').innerHTML = "<span color=’red’>Mật khẩu chưa khớp</span>";
+        }
+    }
+</script>
 
 </html>

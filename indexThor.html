@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Phim: Thor</title>
+    <link rel="stylesheet" href="/css/styleThor.css">
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body>
+    <div class="nav-wrapper">
+        <div class="container">
+            <div class="nav">
+                <a href="Home.html" class="logo">
+                    <i class='bx bx-movie-play bx-tada'></i>Ci<span class="main-color">ne</span>ma
+                </a>
+                <ul class="nav-menu" id="nav-menu">
+                    <li><a href="Home.html">Trang Chủ</a></li>
+                    <li><a href="chair.html">Đặt Vé</a></li>
+                    <li><a href="indexKhuyenmai.html">Khuyến Mãi</a></li>
+                    <li><a href="indexLienHe.html">Liên Hệ</a></li>
+                    <li>
+                        <a href="sign_in.html" class="bth bth-hover">
+                            <span>Đăng Nhập</span>
+                        </a>
+                    </li>
+                </ul>
+                <!--MOBILE MENU TOGGLE-->
+                <div class="hamburger-menu" id="hamburger-menu">
+                    <div class="hamburger"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="background">
+        <div class="Noidung">
+            <h1>THÔNG TIN PHIM</h1>
+
+        </div>
+        <div class="ThongTin">
+            <div class="AvatarPhim">
+
+            </div>
+            <div class="ThongTinPhim">
+                <div class="TenPhim">
+                    THOR
+                </div><br>
+                <div class="DaoDien">
+                    Đạo diễn : Kenneth Branagh
+                </div><br>
+                <div class="DienVien">
+                    Diễn viên: Chris Evans,Chris Hemsworth,Tom Hiddleston.
+                </div>
+                <div class="TheLoai">
+                    Thể Loại: Hành động
+                </div><br>
+                <div class="KhoiChieu">
+                    Khởi chiếu:26/4/2019
+                </div><br>
+                <div class="ThoiLuong">
+                    Thời lượng: 115 phút
+                </div><br>
+                <div class="NgonNgu">
+                    Ngôn ngữ: Tiếng Anh - Phụ đề Tiếng Việt
+                </div><br>
+                <div class="Rated">
+                    Rated: C16 - PHIM CẤM KHÁN GIẢ DƯỚI 16 TUỔI
+                </div><br>
+            </div>
+        </div>
+        <div class="DatVe">
+            <button onclick="DatVe()" name="button" type="button">
+                    Đặt vé
+                </button>
+        </div>
+        <div class="TomTat">
+            Nội dung phim: Bộ phim “Thần sấm” là phần đầu tiên của loạt phim Thor, trong phần này câu chuyện xoay quanh quãng thời gian Thor bị vua Asgard cho lưu đày xuống Trái Đất bởi do thất bại của một trận chiến mà chính người cầm quân. Sau khi xuống trái đất
+            Thor không còn bất kỳ một quyền lực gì, thậm chí cây búa Mjolnir cũng bị tước bỏ. Trong lúc đó, Thor biết được âm mưu của người anh trai cùng mẹ khác cha Loki. Thor phải làm gì để ngăn chặn việc vua cha bị chiếm đoạt ngai vàng xứ Asgard?
+        </div>
+    </div>
+</body>
+<script type="text/javascript">
+    function DatVe() {
+        location.assign("chair.html");
+    }
+</script>
+
+</html>

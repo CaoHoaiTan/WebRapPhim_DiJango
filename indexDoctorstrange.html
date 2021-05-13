@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Phim: Doctor strange</title>
+    <link rel="stylesheet" href="/css/styleDoctorstrange.css">
+    <link rel="icon" href="/assets/image/Logo.PNG">
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body>
+    <div class="nav-wrapper">
+        <div class="container">
+            <div class="nav">
+                <a href="Home.html" class="logo">
+                    <i class='bx bx-movie-play bx-tada'></i>Ci<span class="main-color">ne</span>ma
+                </a>
+                <ul class="nav-menu" id="nav-menu">
+                    <li><a href="Home.html">Trang Chủ</a></li>
+                    <li><a href="chair.html">Đặt Vé</a></li>
+                    <li><a href="indexKhuyenmai.html">Khuyến Mãi</a></li>
+                    <li><a href="indexLienHe.html">Liên Hệ</a></li>
+                    <li>
+                        <a href="sign_in.html" class="bth bth-hover">
+                            <span>Đăng Nhập</span>
+                        </a>
+                    </li>
+                </ul>
+                <!--MOBILE MENU TOGGLE-->
+                <div class="hamburger-menu" id="hamburger-menu">
+                    <div class="hamburger"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="background">
+        <div class="Noidung">
+            <h1>THÔNG TIN PHIM</h1>
+        </div>
+        <div class="ThongTin">
+            <div class="AvatarPhim">
+                <!-- <img src="icon/" alt=""> -->
+            </div>
+            <div class="ThongTinPhim">
+                <div class="TenPhim">
+                    DOCTOR STRANGE
+                </div><br>
+                <div class="DaoDien">
+                    Đạo diễn : Scott Derrickson
+                </div><br>
+                <div class="DienVien">
+                    Diễn viên: Amy LandeckerBenedict CumberbatchBenedict WongBern CollacoChiwetel EjioforDante BrigginsEmeson NwolieJuani FelizKobna Holdbrook-SmithMads Mikkelsen
+                </div>
+                <div class="TheLoai">
+                    Thể Loại: Viễn tưởng
+                </div><br>
+                <div class="KhoiChieu">
+                    Khởi chiếu:20/9/2020
+                </div><br>
+                <div class="ThoiLuong">
+                    Thời lượng: 128 phút
+                </div><br>
+                <div class="NgonNgu">
+                    Ngôn ngữ: Tiếng Anh - Phụ đề Tiếng Việt
+                </div><br>
+                <div class="Rated">
+                    Rated: C16-PHIM CẤM KHÁN GIẢ DƯỚI 16 TUỔI
+                </div><br>
+            </div>
+        </div>
+        <div class="DatVe">
+            <button onclick="DatVe()" name="button" type="button">
+                    Đặt vé
+                </button>
+        </div>
+        <div class="TomTat">
+            Nội dung phim: DOCTOR STRANGE là câu chuyện về bác sĩ Giải Phẫu Thần Kinh tên Stephen Vincent Strange. Cuộc đời anh thay đổi từ sau một tai nạn xe hơi khủng khiếp. Sau tai nạn đó, Stephen nhận ra mình có những năng lực bí ẩn cũng như biết thêm về thế
+            giới ma thuật huyền bí. Từ một vị bác sĩ bình thường, Stephen Strange dần nhận được nhiều siêu năng lực để cứu trái đất khỏi những tai họa.
+        </div>
+    </div>
+</body>
+<script type="text/javascript">
+    function DatVe() {
+        location.assign("chair.html");
+    }
+</script>
+
+</html>

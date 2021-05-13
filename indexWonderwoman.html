@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Phim: Wonder Woman</title>
+    <link rel="stylesheet" href="/css/styleWonderwoman.css">
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body>
+    <div class="nav-wrapper">
+        <div class="container">
+            <div class="nav">
+                <a href="Home.html" class="logo">
+                    <i class='bx bx-movie-play bx-tada'></i>Ci<span class="main-color">ne</span>ma
+                </a>
+                <ul class="nav-menu" id="nav-menu">
+                    <li><a href="Home.html">Trang Chủ</a></li>
+                    <li><a href="chair.html">Đặt Vé</a></li>
+                    <li><a href="indexKhuyenmai.html">Khuyến Mãi</a></li>
+                    <li><a href="indexLienHe.html">Liên Hệ</a></li>
+                    <li>
+                        <a href="sign_in.html" class="bth bth-hover">
+                            <span>Đăng Nhập</span>
+                        </a>
+                    </li>
+                </ul>
+                <!--MOBILE MENU TOGGLE-->
+                <div class="hamburger-menu" id="hamburger-menu">
+                    <div class="hamburger"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="background">
+        <div class="Noidung">
+            <h1>THÔNG TIN PHIM</h1>
+        </div>
+        <div class="ThongTin">
+            <div class="AvatarPhim">
+                <!-- <img src="icon/" alt=""> -->
+            </div>
+            <div class="ThongTinPhim">
+                <div class="TenPhim">
+                    WONDER WOMAN
+                </div><br>
+                <div class="DaoDien">
+                    Đạo diễn : Patty Jenkins
+                </div><br>
+                <div class="DienVien">
+                    Diễn viên: Gal Gadot, Ghris Pine
+                </div>
+                <div class="TheLoai">
+                    Thể Loại: Hành động
+                </div><br>
+                <div class="KhoiChieu">
+                    Khởi chiếu:13/3/2020
+                </div><br>
+                <div class="ThoiLuong">
+                    Thời lượng: 150 phút
+                </div><br>
+                <div class="NgonNgu">
+                    Ngôn ngữ: Tiếng Anh - Phụ đề Tiếng Việt
+                </div><br>
+                <div class="Rated">
+                    Rated: C16-PHIM CẤM KHÁN GIẢ DƯỚI 16 TUỔI
+                </div><br>
+            </div>
+        </div>
+        <div class="DatVe">
+            <button onclick="DatVe()" name="button" type="button">
+                    Đặt vé
+                </button>
+        </div>
+        <div class="TomTat">
+            Nội dung phim: Wonder Woman 1984: Nữ Thần Chiến Binh lấy bối cảnh năm 1984, 66 năm sau sự kiện diễn ra Thế Chiến thứ I (1918) ở phần phim đầu tiên, Wonder Woman tái hợp với người yêu tưởng chừng đã qua đời Steve Trevor, đồng thời đương đầu với hai kẻ
+            thù mới là Max Lord và The Cheetah.
+        </div>
+    </div>
+</body>
+<script type="text/javascript">
+    function DatVe() {
+        location.assign("chair.html");
+    }
+</script>
+
+</html>

@@ -229,103 +229,120 @@ a.logo:hover a.movie-item:hover {
     color: var(--text-color);
     display: flex;
 }
-.Noidung h1{
+
+.Noidung h1 {
     margin-left: 450px;
     margin-bottom: 50px;
     font-family: 'Oswald', sans-serif;
-    color: 	white;
+    color: white;
     font-size: 50px;
 }
-.background{
-    background-image: url("icon/Anquy.jpg");  
+
+.background {
+    background-image: url("/icon/Anquy.jpg");
     background-size: 100% 1000px;
     height: auto;
     width: 100%;
 }
-hr{
-    color: white   ;
+
+hr {
+    color: white;
 }
-.ThongTin{
-    display:flex;
+
+.ThongTin {
+    display: flex;
 }
-.AvatarPhim img{
-        display:inline-flex;
-        height: 500px;
-        width: 500px;
-        max-width:500px;
-        max-height:600px;
-        margin-left: 50px;
+
+.AvatarPhim img {
+    display: inline-flex;
+    height: 500px;
+    width: 500px;
+    max-width: 500px;
+    max-height: 600px;
+    margin-left: 50px;
 }
-.TenPhim{
-    color: 	white;
+
+.TenPhim {
+    color: white;
     font-family: 'Oswald', sans-serif;
     font-size: 30px;
     margin-left: 30px;
     font-weight: bold;
 }
-.DaoDien{
-    color: 	white;
+
+.DaoDien {
+    color: white;
     font-family: 'Oswald', sans-serif;
     font-size: 30px;
     margin-left: 30px;
     font-weight: bold;
 }
-.DienVien{
-    color: 	white;
+
+.DienVien {
+    color: white;
     font-family: 'Oswald', sans-serif;
     font-size: 30px;
     margin-left: 30px;
     font-weight: bold;
 }
-.TheLoai{
-    color: 	white;
+
+.TheLoai {
+    color: white;
     font-family: 'Oswald', sans-serif;
     font-size: 30px;
     margin-left: 30px;
     font-weight: bold;
 }
-.KhoiChieu{
-    color: 	white;
+
+.KhoiChieu {
+    color: white;
     font-family: 'Oswald', sans-serif;
     font-size: 30px;
     margin-left: 30px;
     font-weight: bold;
 }
-.ThoiLuong{
-    color: 	white;
+
+.ThoiLuong {
+    color: white;
     font-family: 'Oswald', sans-serif;
     font-size: 30px;
     margin-left: 30px;
     font-weight: bold;
 }
-.NgonNgu{
-    color: 	white;
+
+.NgonNgu {
+    color: white;
     font-family: 'Oswald', sans-serif;
     font-size: 30px;
     margin-left: 30px;
     font-weight: bold;
 }
-.Rated{
-    color: 	white;
+
+.Rated {
+    color: white;
     font-family: 'Oswald', sans-serif;
     font-size: 30px;
     margin-left: 30px;
     font-weight: bold;
 }
-.TomTat{
-    color: 	white;
+
+.TomTat {
+    color: white;
     font-family: 'Oswald', sans-serif;
     font-size: 20px;
     margin-left: 30px;
     font-weight: bold;
 }
-.DatVe{
+
+.DatVe {
     margin-top: 20px;
-    margin-left:600px;
+    margin-left: 600px;
     margin-bottom: 20px;
 }
-.DatVe button{
-    background-color: #58257b; /* màu của Quản trị mạng ^^ */
+
+.DatVe button {
+    background-color: #58257b;
+    /* màu của Quản trị mạng ^^ */
     color: white;
     padding: 15px 32px;
     text-align: center;
